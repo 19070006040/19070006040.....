@@ -1,0 +1,42 @@
+[
+    {
+        "city_name": "Paris",
+        "course_type": "Mathematics"
+    },
+    {
+        "city_name": "Moscow",
+        "course_type": "Language Arts"
+    },
+    {
+        "city_name": "London",
+        "course_type": "Science"
+    },
+    {
+        "city_name": "St. Petersburg",
+        "course_type": "Computer Science"
+    },
+    {
+        "city_name": "Munih",
+        "course_type": "Social Sciences"
+    },
+    {
+        "city_name": "New York",
+        "course_type": "Foreign Languages"
+    },
+    {
+        "city_name": "Los Angeles",
+        "course_type": "History"
+    },
+    {
+        "city_name": "Pekin",
+        "course_type": "Business and Finance"
+    },
+    {
+        "city_name": "Seoul",
+        "course_type": "Health and Wellness"
+    },
+    {
+        "city_name": "Tokyo",
+        "course_type": "Arts and Humanities"    
+    }
+]

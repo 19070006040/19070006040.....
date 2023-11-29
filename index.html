@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel Company</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid ">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="form-div bg-white rounded-4 shadow-lg p-5 flex flex-column">
+        <h4><strong>EDUCATION APPOINTMENT FORM</strong></h4>
+        <form action="submit.html" id="appointmentForm">
+          <div class="my-3">
+            <input
+              type="text"
+              class="form-control"
+              id="inputText1"
+              aria-describedby="titleHelp"
+              placeholder="Title"
+              required
+            />
+          </div>
+          <div class="my-4">
+            <input
+              type="text"
+              class="form-control"
+              id="inputText2"
+              aria-describedby="nameHelp"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="my-4">
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              aria-describedby="emailHelp"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="my-4">
+            <input
+              type="number"
+              class="form-control"
+              id="PhoneNumber"
+              aria-describedby="phoneHelp"
+              placeholder="Phone Number with your area code"
+              required
+            />
+          </div>
+
+          <div class="form-floating my-4">
+            <select class="form-select" id="courseSelect" required="true">
+              <option selected class="optionSelected" value="">Course Type</option>
+            </select>
+          </div>
+
+          <div class="form-floating my-4">
+            <select class="form-select" id="citySelect" required="true">
+              <option selected class="optionSelected" value="">City</option>
+            </select>
+          </div>
+
+          <div class="mt-5">
+            <h6><strong>How would you like to be located ?</strong></h6>
+            <div class="form-floating">
+              <select class="form-select" id="locatedOptionSelect">
+                <option selected class="optionSelected" value="">By Phone</option>
+                <option class="optionSelected" value="">By E-mail</option>
+                <option class="optionSelected" value="">By SMS</option>
+              </select>
+            </div>
+
+            <div class="form-floating">
+              <select class="form-select" id="hoursSelected">
+                <option selected>Hours 8am - 10pm</option>
+                <option value="1">10am - 1pm</option>
+                <option value="2">2pm - 4pm</option>
+                <option value="3">5pm - 7pm</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group form-check mt-4">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+              required
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >I agree to the <a href="#">Terms and Conditions</a></label>
+          </div>
+          <div class="mt-4">
+            <button type="submit" class="btn btn-primary">
+              Request and Appointment
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
